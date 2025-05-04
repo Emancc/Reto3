@@ -194,7 +194,7 @@ hr {
 footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   background-color: rgb(38, 38, 39);
@@ -204,7 +204,7 @@ footer {
 
 footer div {
   margin: 5px 15px;
-  color: bisque;
+  color: white;
 }
 
 /* -------------------- Media Query (Responsive) -------------------- */
