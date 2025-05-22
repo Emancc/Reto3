@@ -129,7 +129,7 @@ nav li a:hover {
   align-items: flex-start;
   padding-top: 100px;
   margin: 0 100px;
-  flex-wrap: nowrap; /* evita que se rompa en varias filas */
+  flex-wrap: wrap; /* evita que se rompa en varias filas */
   gap: 20px; /* espacio entre elementos */
 }
 
@@ -154,7 +154,7 @@ hr {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: stretch;
   width: 100%;
   gap: 20px;
@@ -164,8 +164,8 @@ hr {
 }
 
 .card {
-  flex: 1 1 250px;
-  max-width: 300px;
+  flex: 1 1 350px;
+  max-width: 440px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -187,7 +187,6 @@ hr {
 
 .card .descripcion {
   padding: 10px;
-  background-color: #e2e2e2;
 }
 
 .card .descripcion h3,
@@ -211,12 +210,12 @@ footer {
   background-color: rgb(38, 38, 39);
   padding: 15px 10px;
   text-align: center;
-  z-index: 3;
 }
 
 footer div, footer div p {
   margin: 0;
   padding: 0;
+  font-size: 14px;
   color: white;
 }
 
