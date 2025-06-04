@@ -99,21 +99,23 @@ nav li a:hover {
 
 /* -------------------- Destacado -------------------- */
 .destacado {
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 40px;
-  width: 100%;
   margin: auto;
-  padding: 40px 20px;
+}
+
+.destacado h2{
+  text-align: center;
 }
 
 .destacado1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .destacado img {
@@ -133,9 +135,6 @@ nav li a:hover {
   gap: 20px; /* espacio entre elementos */
 }
 
-.destacado {
-  width: 300px; /* o el tamaño que necesites */
-}
 
 
 /* -------------------- Separador -------------------- */
